@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.min-signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 550px;
+  box-shadow: 0 0 18px #d3d3d3;
+  background-color: rgb(237, 246, 245);
+  padding: 15px;
+  margin: 5px;
+}
+.signup-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Phone-num,
+.Password,
+.name,
+.email {
+  margin: 15px;
+  width: 250px;
+  border-radius: 6px;
+}
+.btn .registered {
+  margin: 10px;
+  width: 250px;
+  font-size: 15px;
+  background-color: rgb(66, 204, 66);
+  border-radius: 6px;
+}
+.registered:hover {
+  background-color: rgb(28, 132, 28);
+}
+.have-account .login-link {
+  text-decoration: none;
+  color: rgb(50, 69, 161);
+}
+.max-signup-container {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .s-navbar {
+    display: none;
+  }
+  .s-navbar-l {
+    display: none;
+  }
+  .min-signup-container {
+    display: none;
+  }
+  .max-signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    box-shadow: 0 0 18px #d3d3d3;
+    background-color: rgb(237, 246, 245);
+    padding: 20px;
+    margin: 30px;
+  }
+  .signup-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Phone-num,
+  .Password,
+  .name,
+  .email {
+    margin: 15px;
+    width: 400px;
+    height: 30px;
+    border-radius: 6px;
+  }
+  .btn .registered {
+    margin: 10px;
+    height: 30px;
+    width: 400px;
+    font-size: 15px;
+    background-color: rgb(66, 204, 66);
+    border-radius: 6px;
+  }
+  .registered:hover {
+    background-color: rgb(28, 132, 28);
+  }
+  .have-account .login-link {
+    text-decoration: none;
+    color: rgb(50, 69, 161);
+  }
+}

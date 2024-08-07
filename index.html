@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farm's Gallery</title>
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script> -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong"
+    />
+    <link rel="icon" href="asset/grocery logo.webp" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- small Navbar -->
+    <div class="s-navbar">
+      <div class="nav-item">
+        <a class="nav-links" href="#">
+          <img src="asset/bar logo.png" width="50px" />
+        </a>
+      </div>
+      <div class="nav-item">
+        <a class="nav-links" href="#">
+          <span>
+            Farm's <br />
+            Gallery</span
+          >
+        </a>
+      </div>
+      <div class="nav-item">
+        <input
+          class="search"
+          type="search"
+          name=""
+          id=""
+          width="10px"
+          placeholder=" Search the Product "
+        />
+      </div>
+      <div class="nav-item">
+        <a class="nav-links" href="user.html">
+          <img src="asset/user_logo.png" width="30px" />
+        </a>
+      </div>
+      <div class="nav-item">
+        <a class="nav-links" href="cart.html">
+          <img src="asset/cart logo.png" width="40px" />
+        </a>
+      </div>
+    </div>
+
+    <!-- small lower bar -->
+    <div class="s-navbar-l">
+      <label class="loc-lg" for="location logo">
+        <img src="asset/location.png" width="40px" />
+      </label>
+      <input
+        class="Pincode"
+        type="search"
+        name=""
+        id="location logo"
+        width="10px"
+        placeholder=" Deliver to Pincode "
+      />
+    </div>
+
+    <!-- large Navbar -->
+    <div class="l-navbar">
+      <div class="nav-item">
+        <a class="nav-links" href="#">
+          <img src="asset/leaf logo.png" width="50px" />
+        </a>
+      </div>
+      <div class="nav-item">
+        <a class="nav-links" href="#"> <span> Farm's Gallery</span> </a>
+      </div>
+      <div class="nav-item location">
+        <label class="loc-lg" for="location-logo">
+          <img src="asset/location.png" width="40px" />
+        </label>
+      </div>
+      <div class="nav-item">
+        <input
+          class="Pincode"
+          type="search"
+          name=""
+          id="location-logo"
+          width="10px"
+          placeholder=" Deliver to Pincode "
+        />
+      </div>
+      <div class="nav-item">
+        <input
+          class="search"
+          type="search"
+          name=""
+          id=""
+          placeholder=" Search the Product "
+        />
+      </div>
+      <div class="nav-item">
+        <a class="nav-links" href="user.html">
+          <img src="asset/user_logo.png" width="30px" />
+        </a>
+      </div>
+      <div class="nav-item">
+        <a class="nav-links" href="cart.html">
+          <img src="asset/cart logo.png" width="40px" />
+        </a>
+      </div>
+    </div>
+
+    <!-- large lower Navbar -->
+    <div class="l-navbar-l">
+      <nav class="navigation">
+        <li class="l-navbar-l-items">
+          <a class="l-navbar-l-link" href="vegetables.html"> Vegetables </a>
+        </li>
+        <li class="l-navbar-l-items">
+          <a class="l-navbar-l-link" href="fruits.html"> Fruits </a>
+        </li>
+        <li class="l-navbar-l-items">
+          <a class="l-navbar-l-link" href="beverages.html"> Beverages </a>
+        </li>
+        <li class="l-navbar-l-items">
+          <a class="l-navbar-l-link" href="foodgrains-oil-masala.html">
+            Foodgrains,Oil & Masala
+          </a>
+        </li>
+        <li class="l-navbar-l-items">
+          <a class="l-navbar-l-link" href="cleaning-household.html">
+            Cleaning & Household</a
+          >
+        </li>
+      </nav>
+    </div>
+
+    <!-- Animated Text -->
+    <div class="text-container">
+      <div class="text">Welcome to our Farm's Gallery.</div>
+    </div>
+
+    <!-- Carousel -->
+    <!-- <div style="margin: 30px;">
+      <div
+        id="carouselExampleDark"
+        class="carousel-cont carousel carousel-dark slide"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <a href="vegetables.html"><img src="images/vegetables.jpg" class="d-block w-100" alt="..." /></a>
+            <div class="carousel-caption d-none d-md-block">
+              
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <a href="cleaning-household.html"><img src="images/bathing.webp" class="d-block w-100" alt="..." /></a>
+            <div class="carousel-caption d-none d-md-block">
+             
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="cleaning-household.html"><img src="images/surff.webp" class="d-block w-100" alt="..." /></a>
+            <div class="carousel-caption d-none d-md-block">
+              
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div> -->
+
+
+    <!-- cards-Headings -->
+
+    <!-- Handpicked For You -->
+    <div class="cards-Headings">
+      <b> Handpicked For You </b>
+    </div>
+
+    <!-- cards cont -->
+    <div class="cards-container">
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/broad beans.webp" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Broad Beans , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.15 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/tomato.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Tomato , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.20 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/cauliflower.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Cauliflower , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.25 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/brinjal.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Brinjal , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.10 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/cabbage.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Cabbage , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.20 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/bitter melon.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">bitter Melon , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.10 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/capsicum green.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Capsicum Green , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.15 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/Green Chilli.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Green Chilli , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.10 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/ladies finger.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Ladies Finger , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.15 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/garlic.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Garlic , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.30 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/apple.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Apple , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.20 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/banana.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Banana , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.20 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/beetroot.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Beetroot , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.20 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/orange.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Orange , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.20 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/carrot.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Carrot , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.20 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/coconut.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Coconut , 1 Peace</div>
+            <div class="card-title"><b> MRP - Rs.25 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/tender coconut.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Tender Coconut , 1 Peace</div>
+            <div class="card-title"><b> MRP - Rs.30 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/cucumber.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Cucumber , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.20 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/guava.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Guava , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.20 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/jamun.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Jamun , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.20 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/biseleri.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Drinking Water(Biseleri) , 1L</div>
+            <div class="card-title"><b> MRP - Rs.20 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/bru coffee powder.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">BRU Coffee , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.50 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/coco cola.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Coco Cola , 1L</div>
+            <div class="card-title"><b> MRP - Rs.90 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/forooti.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Frooti , 1L</div>
+            <div class="card-title"><b> MRP - Rs.85 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/halmira tea.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Halmira , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.100 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/horlicks.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Horlicks , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.150 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/limca.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Limca , 250 ml</div>
+            <div class="card-title"><b> MRP - Rs.20 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/red bul.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Red Bull , 250 ml</div>
+            <div class="card-title"><b> MRP - Rs.120 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/maza.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Maza , 500 ml</div>
+            <div class="card-title"><b> MRP - Rs.50 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/nescafe coffee.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Nescafe coffee , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.120 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/almonds.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Almonds , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.250 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/besan.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Besan Flour , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.15 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/Cardamom Green.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Cardamom , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.220 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/Cashe.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Cashew , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.270 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/dates.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Dates , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.150 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/milk.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Milk , 500 ml</div>
+            <div class="card-title"><b> MRP - Rs.30 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/oil.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Soya Oil , 1 L</div>
+            <div class="card-title"><b> MRP - Rs.100 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/peanuts.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Peanuts , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.40 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/Raisins.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Raisins , 250 g</div>
+            <div class="card-title"><b> MRP - Rs.210 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/rice.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Basmati Rice , 1 kg</div>
+            <div class="card-title"><b> MRP - Rs.70 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/aer.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Air Fragrance , 1 Peace</div>
+            <div class="card-title"><b> MRP - Rs.50 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/agarbatti1.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Agarbatti , 25 Sticks</div>
+            <div class="card-title"><b> MRP - Rs.60 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/agarbatti2.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Agarbatti , 20 Sticks</div>
+            <div class="card-title"><b> MRP - Rs.45 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/black hit.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Mosquito & Fly Killer Spray</div>
+            <div class="card-title"><b> MRP - Rs.525 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/blue harpik.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Toilet Cleaner Liquid , 500 ml</div>
+            <div class="card-title"><b> MRP - Rs.188 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/cleaner stick 2.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Flour Cleaner Stick</div>
+            <div class="card-title"><b> MRP - Rs.300 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/cleaner stick1.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Flour Cleaner Stick</div>
+            <div class="card-title"><b> MRP - Rs.220 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/comfort.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">After Wash Conditioner,250 ml</div>
+            <div class="card-title"><b> MRP - Rs.220 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/comfort2.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">After Wash Conditioner,500 ml</div>
+            <div class="card-title"><b> MRP - Rs.500 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="cards-link" href="">
+        <div class="cards-item">
+          <img class="card-img" src="images/dettol handwash.png" alt="" />
+
+          <div class="card-details">
+            <div class="card-title">Dettol Handwash , 500 ml</div>
+            <div class="card-title"><b> MRP - Rs.120 </b></div>
+            <div class="card-btn">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="foot-header">
+        <h1><a class="footer-links" href="index.html"> Farm's Gallery </a></h1>
+        <p>
+          Farm's Gallery Ltd is newly opened organisation to porvide daily
+          needs.
+        </p>
+        <hr style="margin: 20px" />
+      </div>
+
+      <div class="foot-LINKS">
+        <h4 style="color: gray; margin-bottom: 5px">LINKS</h4>
+        <p><a class="footer-links" href="about.html">About Us</a></p>
+        <p><a class="footer-links" href="contact.html">Contact Us</a></p>
+        <hr style="margin: 10px" />
+      </div>
+
+      <div class="foot-Policies">
+        <h4 style="color: gray; margin-bottom: 5px">Policies</h4>
+        <p><a class="footer-links" href="refund.html">Refund Policy</a></p>
+        <p><a class="footer-links" href="return.html">Return Policy</a></p>
+        <p>
+          <a class="footer-links" href="cancel.html">Cancellation Policy</a>
+        </p>
+        <hr style="margin: 10px" />
+      </div>
+    </footer>
+  </body>
+</html>
